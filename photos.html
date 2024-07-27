@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Photo Gallery</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="videos.html">Videos</a></li>
+        </ul>
+    </nav>
+    <div class="img-gallery" id="photo-gallery">
+        <!-- Các ảnh sẽ được thêm vào đây bởi JavaScript -->
+    </div>
+    <div class="pagination">
+        <button id="prevPage">Previous</button>
+        <button id="nextPage">Next</button>
+    </div>
+    <div class="full-img" id="full-img">
+        <span id="close">&times;</span>
+        <img src="" id="full-img-src">
+        <span id="prevFull">&lt;</span>
+        <span id="nextFull">&gt;</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

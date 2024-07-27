@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Gallery</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Video Gallery</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="photos.html">Photos</a></li>
+        </ul>
+    </nav>
+    <div class="img-gallery" id="video-gallery">
+        <!-- Các video sẽ được thêm vào đây bởi JavaScript -->
+    </div>
+    <div class="pagination">
+        <button id="prevVideoPage">Previous</button>
+        <button id="nextVideoPage">Next</button>
+    </div>
+    <div class="full-img" id="full-img">
+        <span id="close">&times;</span>
+        <video id="full-video-src" controls></video>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
